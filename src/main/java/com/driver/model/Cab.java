@@ -20,7 +20,15 @@ public class Cab {
         this.available = available;
     }
 
-    public Cab( int perKmRate) {
+    public Driver getDriver() {
+        return driver;
+    }
+
+    public void setDriver(Driver driver) {
+        this.driver = driver;
+    }
+
+    public Cab(int perKmRate) {
         this.perKmRate = perKmRate;
     }
 
