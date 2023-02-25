@@ -20,6 +20,10 @@ public class Cab {
         this.available = available;
     }
 
+    public Cab() {
+
+    }
+
     public Driver getDriver() {
         return driver;
     }
