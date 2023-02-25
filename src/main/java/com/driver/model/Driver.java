@@ -31,11 +31,11 @@ public class Driver {
     }
 
 
-    public Driver(String mobile, String password, Cab cab, List<TripBooking> tripBookingList) {
+    public Driver(int driverId, String mobile, String password, Cab cab) {
+        this.driverId = driverId;
         this.mobile = mobile;
         this.password = password;
         this.cab = cab;
-        this.tripBookingList = tripBookingList;
     }
 
     public String getMobile() {

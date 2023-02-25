@@ -14,7 +14,8 @@ public class Cab {
     @OneToOne ( mappedBy = "cab" , cascade = CascadeType.ALL)
     private Driver driver ;
 
-    public Cab( int perKmRate, boolean available) {
+    public Cab(int id, int perKmRate, boolean available) {
+        this.id = id;
         this.perKmRate = perKmRate;
         this.available = available;
     }
